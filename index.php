@@ -18,13 +18,13 @@ try {
     $mail->isSMTP();                                           
     $mail->Host       = 'smtp.gmail.com';                     
     $mail->SMTPAuth   = true;                                   
-    $mail->Username   = 'abhishekkumarnic637@gmail.com';                    
-    $mail->Password   = 'vxewsnqgmenmmoxi';                             
+    $mail->Username   = 'abhi@gmail.com';                    
+    $mail->Password   = 'dsjfdfhhfzhdsfh';                             
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            
     $mail->Port       = 465;                                    
 
   
-    $mail->setFrom('abhishek@gmail.com', 'Subscribe kr lene is channel ko');
+    $mail->setFrom('abhi@gmail.com', 'Subscribe kr lene is channel ko');
 
     $mail->addAddress('');             
 
